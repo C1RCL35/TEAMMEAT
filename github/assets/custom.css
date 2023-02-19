@@ -1,0 +1,154 @@
+/* html {
+    width:100vw;
+} */
+
+body {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+#data-section::-webkit-scrollbar {
+    width: 12px;
+}
+  
+#data-section::-webkit-scrollbar-track {
+    background: transparent;        
+}
+
+#data-section::-webkit-scrollbar-thumb {
+    background-color: white;    
+    border-radius: 20px;       
+    border: 3px solid white;  
+}
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+.col-5 {
+    width : 41.66666667% !important
+}
+
+.col-7 {
+    width: 58.3333333% !important
+}
+
+#fileUploadColumn {
+    background-color: #F7F6C5;
+    height: 100vh;
+}
+
+#fileUpload {
+    background-color: #C04CFD;
+    font-family: 'Permanent Marker','Roboto', serif;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#fileUpload H1 {
+    font-size: 24px;
+}
+
+#submitButton {
+    background-color: #6ED231;
+    font-family: 'Permanent Marker','Roboto', serif;
+    color: #ffffff;
+    width: fit-content;
+    border-radius: 10px;
+    margin-left: 60%;
+    margin-top:5px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+#submit-val {
+    background-color: #6ED231;
+    font-family: 'Permanent Marker','Roboto', serif;
+    color: #ffffff;
+    width: fit-content;
+    border: none;
+    font-size: 24px;
+}
+
+#meatMachine {
+    font-family: 'Permanent Marker','Roboto', serif;
+    color: #fd4293;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+#meatMachine H1 {
+    font-size: 64px;
+    margin-top: 10px;
+}
+#upload-data {
+    background-color: #821bba;
+    font-family: 'Permanent Marker','Roboto', serif;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 24px;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5%;
+}
+
+#uiColumn {
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+}
+
+#DataDisplayColumn {
+    background-color: #F3FAE1;
+    height: 100vh;
+    z-index: 1;
+    text-align: center;
+}
+
+#Logo {
+    position: absolute;
+    bottom: 5%;
+    right: 0%;
+    height: 200px;
+    width: 230px;
+}
+
+.upload-message {
+    font-family: 'Permanent Marker','Roboto', serif;
+    color: #fd4293;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 25px;
+    width:fit-content;
+    position: absolute; 
+}
+
+#graphTitle {
+    font-family: 'Permanent Marker','Roboto', serif;
+    color: #fd4293;
+    font-size: 24px;
+    text-align: center;
+    width:fit-content;
+    margin-top: 8%;
+}
+
+.dropDown {
+    margin-top: 10px;
+}
+
+.dataframe-head {
+    text-align: center;
+}
